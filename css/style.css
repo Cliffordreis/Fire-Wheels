@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@900&display=swap');
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+.body_cad{
+    background-image: url(/img/cad_background.jpg);
+    background-size:cover; /* Para cobrir todo o elemento body */
+    background-position: center; /* Para centralizar a imagem no elemento body */
+    background-repeat: no-repeat; /* Para evitar que a imagem se repita */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+    margin: 0; /* Remove margens padrão do body */
+
+}
+
+.navbar-brand{
+    font-family: 'Galada', cursive;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(229,21,21,1) 50%, rgba(255,50,50,1) 100%);
+    font-size: 28px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores Webkit */
+    
+}
+
+#carouselExampleCaptions{
+    max-height: 550px;
+    
+}
+
+.bannert{
+    max-height: 550px;
+    object-fit: cover;
+}
+
+#text_ini{
+        margin-left: 10px;
+        margin-top: 40px;
+        font-size: 3rem;
+        width: 450px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        font-family: 'Roboto Slab', serif;
+}
+
+#img_ini{
+    
+    width: 700px;
+}
+
+#inicia_form{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+}
+
+.formulario{
+    font-family: 'Roboto Slab', serif;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid rgba(240, 240, 235, 0.637);
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(247, 240, 237);
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    background-color:rgba(94, 94, 94, 0.555);
+    
+
+}
+
+.formulario input[type="name"]::placeholder,
+.formulario input[type="text"]::placeholder,
+.formulario input[type="email"]::placeholder,
+.formulario input[type="password"]::placeholder {
+    /* Estilo para os placeholders dos campos de input */
+    color: rgb(247, 240, 237);
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+}
+
+.formulario_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.inp_css{
+    background-color: rgba(0, 0, 0, 0.295); /* Um valor de opacidade de 0.1 (10%) */
+    border: 1px solid rgba(255, 255, 255, 0.336); /* Um valor de opacidade de 0.5 (50%) para a borda */
+    border-radius: 8px;
+    margin: 5px;
+    color: rgb(247, 240, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bnt_form{
+    margin: 20px;
+}
+
+.fundo_gen{
+    background-color: rgba(32, 32, 32, 0.384);
+}
+
+#rec_senha{
+    font-family: Arial, Helvetica, sans-serif;
+}
